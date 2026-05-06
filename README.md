@@ -76,4 +76,4 @@ Before modeling, the data was refined to ensure quality and compatibility:
 *   **Actual vs Predicted**: A scatterplot of predicted prices against actual prices shows strong linear alignment with a red striaght line representing the ideal `y=x` prediction.
 <img width="1086" height="676" alt="image" src="https://github.com/user-attachments/assets/656d8a24-c9e6-4757-84b0-6f06fa23270e" />
 
-*   **Skewness Correction**: The use of Log Transformation effectively handled the non-linear distribution of prices, resulting in a significantly robust regression fit.
+*   **Skewness Correction**: The Log Transformation was used to establish a more accurate "straight-line" fit and to handle the right-skewed price distribution. This linearized the non-linear relationship between hardware specs and price, resulting in a significantly robust regression fit.
