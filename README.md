@@ -53,7 +53,7 @@ Before modeling, the data was refined to ensure quality and compatibility:
 - **OS Categorization**: Created a custom function to simplify the `OpSys` column into three clean categories: **Windows**, **Mac**, and **Other**.
 
 
-### 3️⃣ Feature Engineering & Encoding
+### 3️. Feature Engineering & Encoding
 
 - **Log Transformation**: Implemented a logarithmic scale on the target variable (`Price`) to create `LogPrice`, ensuring a more normal distribution for the Linear Regression algorithm.
 
